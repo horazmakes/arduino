@@ -16,7 +16,7 @@ const byte PIN_BUTTON_DOWN = 5;
 const byte PIN_BUTTON_LEFT = 6;
 
 void setup() {
-  Serial.begin(9600);
+  Serial.begin(115200);
   
   while (!Serial) { // Arduino Leonardo
     ;
